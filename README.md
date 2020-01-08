@@ -25,13 +25,13 @@ and then calling the "*importances*" (or equivalent) command to quantitatively r
 
 ## 1 B) - *Simple Imputations*
 
-In this level, first carry out imputations to fill in the missing data using the simple algorithms:
+In this level, first carry out imputations to fill in the missing data using the simple imputation methods:
 
 * Hot/Cold deck imputation
 * Regression imputation
 * Stochastic Regression imputation
 
-to fill in the *incomplete* data, followed by using the algorithms:
+to fill in the *incomplete* data, followed by using models based on the algorithms:
 
 * Decision Trees
 * Random Forests
@@ -47,7 +47,7 @@ Here, carry out imputations using the Machine-Learning algorithms:
 * Decision Trees
 * Random Forest
 
-to fill in the *incomplete* data, followed by using the algorithms:
+to fill in the *incomplete* data, followed by using models based on the algorithms:
 
 * Multi-Linear Regression
 * Logistic Regression
@@ -55,12 +55,26 @@ to fill in the *incomplete* data, followed by using the algorithms:
 * Random Forests
 * Gradient Boosting
 * XGBoost
-* PCA/MCA
-* Support Vector Machines
 
 to determine feature importances, taking care to use different techniques for imputation and analysis.
 
 ## 1 D) - *Complicated Imputations*
 
+In this level, first carry out imputations to fill in the missing data using the more advanced imputation methods:
 
-* Interpolation/Extrapolation
+* Interpolation
+* Extrapolation
+* Multiple Imputation
+
+to fill in the *incomplete* data, followed by using models based on the algorithms:
+
+* Decision Trees
+* Random Forests
+* Gradient Boosting
+* XGBoost
+* PCA/MCA (*PCA = Principal Component Analysis; MCA = Multiple Correspondence Analysis*)
+* SVD (*SVD = Singular Value Decomposition*)
+* Support Vector Machines
+
+to determine feature importances.
+
