@@ -105,7 +105,13 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * SVD (*SVD = Singular Value Decomposition*)
 * Support Vector Machines
 
-### 1.2 Much Taco
+### 1.2 - What to do with the plans
+
+First, you need to choose the methods(s) and algorithm(s), this will depend entirely on what the data looks like.  This document should not be interpreted as suggesting that **ALL** of them should be used, it's just listing (*most*) of what's available for use.  
+
+Once the algorithms and methods have been chosen, carry out the first three steps.  If the results from these steps agree, then stopping there is fine, if the results do not agree, then proceed to each additional step until a majority (*or at least a plurality*) is reached.  The last two steps can be done if someone is feeling "extra".  
+
+Additionally, don't this this means doing all of this is hard: there are libraries for doing **ALL** of this.
 
 ## 2 - EXAMPLES
 
