@@ -23,6 +23,7 @@ I suggest creating models from the *incomplete* data using the algorithms:
 
 * Decision Trees
 * Random Forests
+* AdaBoost
 * Gradient Boosting
 * XGBoost
 
@@ -40,6 +41,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 * Decision Trees
 * Random Forests
+* AdaBoost
 * Gradient Boosting
 * XGBoost
 
@@ -51,6 +53,8 @@ Here, carry out imputations using the Machine-Learning algorithms:
 
 * Decision Trees
 * Random Forest
+* AdaBoost
+* Gradient Boosting
 
 to fill in the *incomplete* data, followed by using models based on the algorithms:
 
@@ -58,6 +62,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * Logistic Regression
 * Decision Trees
 * Random Forests
+* AdaBoost
 * Gradient Boosting
 * XGBoost
 * PCA/MCA (*PCA = Principal Component Analysis; MCA = Multiple Correspondence Analysis*)
@@ -76,6 +81,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 * Decision Trees
 * Random Forests
+* AdaBoost
 * Gradient Boosting
 * XGBoost
 * PCA/MCA (*PCA = Principal Component Analysis; MCA = Multiple Correspondence Analysis*)
@@ -100,6 +106,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * Logistic Regression
 * Decision Trees
 * Random Forests
+* AdaBoost
 * Gradient Boosting
 * XGBoost
 * SVD (*SVD = Singular Value Decomposition*)
