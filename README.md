@@ -2,7 +2,12 @@
 
 Helping someone out . . . . more deets later
 
-### 1 - Initial Plan Idea
+## 1 - PLANS
+
+* 1 - Initial Plan Ideas
+* 2 - What to do with the plan ideas
+
+### 1.1 - Initial Plan Idea
 
 Consider five "*__top__ levels*" of data analysis, with each level becoming progressively more complex.  These levels are:
 
@@ -12,7 +17,7 @@ Consider five "*__top__ levels*" of data analysis, with each level becoming prog
 * __D) -__ Do some more complicated imputations (*read composite methods*) such as multiple imputation or interpolation, then analyze the resulting "*completed*" dataset.  The imputation methods used here should have **NO** ability to analyze data (*ie no random forests, decision tress, etc*) so these algorithms can be saved for use in analysis of the data here.
 * __E) -__ Employ very high level imputation methods including variants on PCA/MCA as well as deep learning methods, then analyze the resulting "*completed*" data with the fullest suite of applicable and available algorithms.
 
-#### 1 A) - *As-is*
+#### 1.1 A) - *As-is*
 
 I suggest creating models from the *incomplete* data using the algorithms:
 
@@ -23,7 +28,7 @@ I suggest creating models from the *incomplete* data using the algorithms:
 
 and then calling the "*importances*" (or equivalent) command to quantitatively rank features by their importance in determining outcomes.
 
-#### 1 B) - *Simple Imputations*
+#### 1.1 B) - *Simple Imputations*
 
 In this level, first carry out imputations to fill in the missing data using the simple imputation methods:
 
@@ -40,7 +45,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 to determine feature importances.
 
-#### 1 C) - *Machine-Learning Imputations*
+#### 1.1 C) - *Machine-Learning Imputations*
 
 Here, carry out imputations using the Machine-Learning algorithms:
 
@@ -59,7 +64,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 to determine feature importances, taking care to use different techniques for imputation and analysis.
 
-#### 1 D) - *Complicated Imputations*
+#### 1.1 D) - *Complicated Imputations*
 
 In this level, first carry out imputations to fill in the missing data using the more advanced imputation methods:
 
@@ -79,7 +84,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 to determine feature importances.
 
-#### 1 E) - *High-Level Imputations*
+#### 1.1 E) - *High-Level Imputations*
 
 Finally, the imputations can be carried out using the high level methods:
 
@@ -100,9 +105,9 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * SVD (*SVD = Singular Value Decomposition*)
 * Support Vector Machines
 
-### Much Taco
+### 1.2 Much Taco
 
-## 2 - Examples
+## 2 - EXAMPLES
 
 I will next give a list of examples for the various techniques and algorithms I mentioned above . . . 
 
