@@ -55,6 +55,7 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * Random Forests
 * Gradient Boosting
 * XGBoost
+* PCA/MCA (*PCA = Principal Component Analysis; MCA = Multiple Correspondence Analysis*)
 
 to determine feature importances, taking care to use different techniques for imputation and analysis.
 
@@ -78,3 +79,23 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 
 to determine feature importances.
 
+## 1 E) - *High-Level Imputations*
+
+Finally, the imputations can be carried out using the high level methods:
+
+* Bayesian PCA/MCA
+* Fuzzy K-Means
+* MICE (*MICE = Multiple Imputation by Chained Equations*)
+* Multiple Imputation PCA/MCA
+* Deep-Learning methods (*such as those in the __Datawig__ library*)
+
+to fill in the *incomplete* data, followed by using models based on the algorithms:
+
+* Multi-Linear Regression
+* Logistic Regression
+* Decision Trees
+* Random Forests
+* Gradient Boosting
+* XGBoost
+* SVD (*SVD = Singular Value Decomposition*)
+* Support Vector Machines
