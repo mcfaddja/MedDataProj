@@ -1,0 +1,17 @@
+head -n 1 train.csv
+nano taco.txt
+sed -i '1s/^/<added text> /' taco.txt
+cat taco.txt
+ls
+{ head -n train.csv; test.csv} > new.txt
+{ head -n 1 train.csv; test.csv} > new.txt
+{ head -n 1 train.csv; echo test.csv} > new.txt
+head new.txt
+nano new.txt
+rm new.txt
+{ head -n 1 train.csv; cat test.csv} > new.txt
+head new.txt
+ls
+{ head -n 1 train.csv; cat covtype.csv } > data.csv
+head data.csv
+wc -l data.csv
