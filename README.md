@@ -99,3 +99,9 @@ to fill in the *incomplete* data, followed by using models based on the algorith
 * XGBoost
 * SVD (*SVD = Singular Value Decomposition*)
 * Support Vector Machines
+
+# 2 - Examples
+
+I will next give a list of examples for the various techniques and algorithms I mentioned above . . . 
+
+**COMING . . . . at some point**
